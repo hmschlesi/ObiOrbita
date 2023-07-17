@@ -1,48 +1,38 @@
-# Open Source Hardware Project for Playtronica Orbita - Orbitar OpenSource Hardware
+# Open Source Hardware Implementation for Playtronica Orbita
 
 ## Team Members
-- Pongpanoch Chongpatiyutt
 - Hans-Martin Schlesier
 - Kim-Sarah Nowak
 - Nasuh Ege Acikgöz
+- Pongpanoch Chongpatiyutt
 
 ## Practice Partner
 - Sasha Pas (Playtronica)
 
 ## Concept
-Our project is "Orbits on a Budget" (aka OBI Orbitar). The goal is to create a manual and design for the Orbitar that can be built with a minimal budget and conventional tools or service hacks. This includes services like Zuschnittservice at Baumarkt, using recycled wood, etc. This concept favors cost over convenience or advanced functions. The construction process will have plenty of opportunities to improve quality or focus the budget on a specific function.
+Our project, "Orbits on a Budget" (also known as OBI Orbitar), aims to create a manual and design for the Orbitar that can be built with a minimal budget and conventional tools. We plan to incorporate services like Zuschnittservice at Baumarkt and recycled wood into our design process. This concept prioritizes cost-efficiency over convenience or advanced functions, providing ample opportunities for quality improvement or specific function focus during the construction process.
 
 ## Design Idea: The ObiOrbita
-Our design focuses on easy manufacturing and assembly of a working Orbita design. We aim to use off-the-shelf hardware where possible. Other parts should be simple to manufacture with common household tools, like a power drill or box cutter. The design follows the existing design of the Orbita.
+Our design emphasizes the easy manufacturing and assembly of a working Orbita design. We plan to utilize off-the-shelf hardware where possible. Other parts should be easy to manufacture with common household tools like a power drill or box cutter. The design follows the existing design principles of the Orbita.
 
 ## Project Goal
-The objective of our project is to develop an open-source hardware approach for the Playtronica Orbita. Our primary aim is to create a comprehensive manual/documentation that clearly describes how to integrate the electronic components provided by Playtronica into a music interface, which we'll design. We're committed to making this process accessible for educational purposes and budget-friendly, enabling anyone to easily reconstruct it with a limited number of pieces.
+Our goal is to implement an open-source hardware approach for the Playtronica Orbita. The primary aim is to develop a comprehensive manual/documentation explaining how to integrate the electronic components provided by Playtronica into a music interface designed by us. We are committed to making this process accessible for educational purposes and budget-friendly, enabling anyone to reconstruct it with a limited number of components.
 
-The components provided by Playtronica for this project include sensors, a Raspberry Pi, a motor, motor belt, magnets, and USB-media/USB-power components.
+Components provided by Playtronica for this project include sensors, a Raspberry Pi, a motor, a motor belt, magnets, USB-media, and USB-power components.
 
 ## Project Plan Summary
+The project will follow several steps, ranging from concept creation to final presentation:
 
-The development of our project involves several steps, from concept creation to final presentation. Here's a high-level overview of our process:
-
-1. **Introduction to the Project and Needs:** Understand the project requirements and the problems we are trying to solve.
-2. **Concept Design:** Theoretical concept development and translating these concepts into tangible designs.
-3. **Production Planning:** This involves planning for the production of "ObiOrbitar" and the decision-making process for the second concept "Orbitime".
-4. **Prototyping:** This includes the creation of a Bill of Materials (BOM), determining the necessary tools for production, procuring the BOM and Orbita Kit, assembly, and making necessary adjustments during the prototyping phase.
-5. **Technical Documentation:** Designing the documentation format and templates, creating an index of product documentation, drafting manuals, assembly guidelines, and developing drawings and templates for both "ObiOrbitar" and "Orbitime".
-6. **Video Production:** This involves the creation of instructional videos to supplement the written documentation.
-7. **Final Presentation:** Implementation of the last changes and release of the documentation.
-
-## Engagement with the Practice Partner
-We plan to work closely with Sasha Pas through iterative design rounds and prototype creation, both theoretically and practically. Sasha will coordinate with us, supplying the components mentioned above and, if necessary, providing time in his workshop for hands-on work.
+1. **Introduction to the Project and Needs**: Understanding project requirements and identifying problems.
+2. **Concept Design**: Theoretical concept development and translating concepts into designs.
+3. **Production Planning**: Planning for "ObiOrbitar" production and decision-making for the second concept "Orbitime".
+4. **Prototyping**: This includes the creation of a Bill of Materials (BOM), determining necessary tools for production, procuring the BOM and Orbita Kit, assembling, and making necessary adjustments during the prototyping phase.
+5. **Technical Documentation**: Designing the format and templates for documentation, creating an index of product documentation, drafting manuals and assembly guidelines, and developing drawings and templates for both "ObiOrbitar" and "Orbitime".
+6. **Video Production**: Creating instructional videos to supplement written documentation.
+7. **Final Presentation**: Implementing final changes and releasing documentation.
 
 ## Project Deliverables
-- Open Source Hardware Approach Outcome: ObiOrbita
-  - A working prototype of an open-source, affordable, and user-friendly version of the Orbita.
-- Detailed documentation, including:
-  - Index of product documentation
-  - Architecture
-  - Assembly instructions, Bill of Materials (BOM), and Tools
-  - Design Files (CAD)
-  - Video
-- GitHub Collaboration
-  - Our GitHub repository will serve as a collaborative workspace where we share our design files and documentation, allowing for community contributions.
+- **Open Source Hardware Approach Outcome: ObiOrbita**: A working prototype of an open-source, affordable, and user-friendly version of the Orbita.
+- **Detailed Documentation**: Including an index of product documentation, architecture, assembly instructions, Bill of Materials (BOM), Tools, design files (CAD), and video.
+- **GitHub Collaboration**: Our GitHub repository will serve as a collaborative workspace where we share our design files and documentation, allowing community contributions.
+

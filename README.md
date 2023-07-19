@@ -5,7 +5,7 @@
 ## Team Members
 - Hans-Martin Schlesier
 - Kim-Sarah Nowak
-- N.Ege Acikgöz
+- N. Ege Acikgöz
 - Pongpanoch Chongpatiyutt
 
 ## Practice Partner

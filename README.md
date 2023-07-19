@@ -1,6 +1,8 @@
 # Open Source Hardware Implementation for Playtronica Orbita
 
-{% include _includes/youtube.html id="[UCQbPfbsfg1Qn0rYUodylyZg](https://youtu.be/bVEzPAzVpZk)" %} 
+{% raw %} {% include _includes/youtube.html id="[UCQbPfbsfg1Qn0rYUodylyZg](https://youtu.be/bVEzPAzVpZk)" %} 
+{% endraw %}
+
 
 ## Team Members
 - Hans-Martin Schlesier

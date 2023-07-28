@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: Intro_NB.ipynb
+parts:
+  - caption: Introduction
+    chapters:
+    - file: Introduction/intro.ipynb
+    - file: Introduction/about.ipynb
+  - caption:  OBI Orbita
+    chapters :
+    - file: OBI/OBI_intro.ipynb
+    - file: OBI/OBI_manual.ipynb
+    - file: OBI/OBI_extraMaterials.ipynb
+    - file: Outlook.ipynb
+

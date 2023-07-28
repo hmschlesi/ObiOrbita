@@ -3,7 +3,15 @@
 
 format: jb-book
 root: Intro_NB.ipynb
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: Introduction
+    chapters:
+    - file: Introduction/intro.ipynb
+    - file: Introduction/about.ipynb
+  - caption:  OBI Orbita
+    chapters :
+    - file: OBI/OBI_intro.ipynb
+    - file: OBI/OBI_manual.ipynb
+    - file: OBI/OBI_extraMaterials.ipynb
+    - file: Outlook.ipynb
+

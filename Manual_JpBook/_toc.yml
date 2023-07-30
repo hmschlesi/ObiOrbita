@@ -11,6 +11,7 @@ chapters:
 - file: OBI/OBI_intro.ipynb
   sections:
   - file: OBI/OBI_manual.ipynb
+  - file: OBI/OBI_DAW.ipynb
   - file: OBI/OBI_extraMaterials.ipynb
 - file: Outlook.ipynb
 

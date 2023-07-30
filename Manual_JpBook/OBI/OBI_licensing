@@ -5,38 +5,95 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# OBI Orbita\n",
-    "\n",
-    "Obi Orbita is a circular MIDI sequencer that can turn color and movement into rythms. It is based on the original [Orbita](https://orbita.playtronica.com/) by Playtronica and uses the same electronic components and color buttons.\n",
-    "\n",
-    "Our project, \"Orbita on a Budget\" (also known as OBI Orbita), aims to create a manual and design for the Orbita that can be built with a minimal budget and conventional tools. We plan to incorporate services like wood cutting services at the local hardware store and includes recycled wood in our design process. This concept prioritizes cost-efficiency over convenience or advanced functions, providing opportunities for quality improvement or specific function focus during the construction process.\n",
-    "\n",
-    "The idea to extend the Orbita by an OpenSource version is trying to extend the impact of the product and also offering a low-cost and low-tech alternative. The OBI Orbita should be easy to rebuild with common handtools and an afternoon of time. You can find the bill of materials for this project [here](https://github.com/hmschlesi/ObiOrbita/blob/main/Hardware/BOM_OBIOrbitarct.xlsx) together with some options where you could source the parts.\n",
-    "\n",
-    "See the sections below to get started.\n",
-    "\n",
-    "```{tableofcontents}\n",
-    "```"
+    "# Outlook\n"
    ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Licensing Terms\n",
+    "\n",
+    "This project, including all its design files, documentation, and software, is licensed under the [CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W-2.0)](https://ohwr.org/cern_ohl_w_v2.txt).\n",
+    "\n",
+    "As per the terms of this license, you may:\n",
+    "\n",
+    "- **Redistribute and use** the documentation, design files, and software with or without modifications.\n",
+    "- **Create derivative works** for your use or to distribute, as long as you attribute the original work to us and license your derivative work under the same CERN OHL-W v2.0 license.\n",
+    "\n",
+    "This means that if you decide to distribute, sell, or produce hardware based on our designs, you should:\n",
+    "\n",
+    "- Provide clear attribution to our original work.\n",
+    "- Include a copy of the CERN OHL-W v2.0 license with your work.\n",
+    "- Also, make your modifications or derivative work available under the same CERN OHL-W v2.0 license.\n",
+    "\n",
+    "For the full details of the license, please refer to the complete [CERN-OHL-W-2.0](./LICENSE). SPDX identifier for this license is `CERN-OHL-W-2.0`.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Requirements / Standard Compliance\n",
+    "\n",
+    "### Project Requirements\n",
+    "\n",
+    "#### Functional Requirements\n",
+    "1. The ObiOrbita system should be capable of producing and controlling music using the Orbita.\n",
+    "2. The system should come with a comprehensive manual/documentation explaining how to assemble and operate it.\n",
+    "\n",
+    "#### Non-functional Requirements\n",
+    "1. The system should be robust and durable enough for normal usage.\n",
+    "2. The system should have a cost-efficient design using off-the-shelf components.\n",
+    "3. The system should be designed with an open-source approach, allowing for modifications and improvements.\n",
+    "\n",
+    "### Standards Compliance\n",
+    "\n",
+    "#### CERN Open Hardware License (OHL) Version 2\n",
+    "Our project complies with the CERN OHL v2 by:\n",
+    "\n",
+    "- Making all design files and documentation available to the public under the terms of this license.\n",
+    "- Allowing and encouraging modification and redistribution of the design files.\n",
+    "- Providing a clear attribution to the original project and authors, as required by the license.\n",
+    "\n",
+    "#### Open Source Hardware Association (OSHWA) Standards\n",
+    "Our project aligns with the Open Source Hardware (OSHW) definition, as stipulated by the Open Source Hardware Association. The OSHW's definition can be found at their official website [here](http://www.oshwa.org/definition/). \n",
+    "\n",
+    "Our compliance with the OSHWA standards includes:\n",
+    "\n",
+    "- Providing documentation including design files, and enough additional data to allow the device to be manufactured.\n",
+    "- Allowing modification and distribution of these design files in a way that allows others to easily obtain them.\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
   "kernelspec": {
-   "display_name": "Python 3",
+   "display_name": "Python 3 (ipykernel)",
    "language": "python",
    "name": "python3"
   },
   "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
    "name": "python",
-   "version": "3.9.13"
-  },
-  "orig_nbformat": 4,
-  "vscode": {
-   "interpreter": {
-    "hash": "b7123bc9d5bf4081fb816108306e99e391948399f439eb667db7bc2d8c5ff993"
-   }
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.6"
   }
  },
  "nbformat": 4,
- "nbformat_minor": 2
+ "nbformat_minor": 4
 }

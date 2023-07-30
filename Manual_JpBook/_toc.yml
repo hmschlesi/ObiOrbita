@@ -7,10 +7,9 @@ root: Intro_NB.ipynb
 chapters:
 - file: ToC.ipynb
 - file: Introduction/intro.ipynb
-  sections:
-  - file: Introduction/about.ipynb
-  - file: Introduction/pracPartner.ipynb
-  
+
+- file: initDesigns.ipynb
+
 - file: proposedSolution.ipynb
 
 - file: OBI/OBI_intro.ipynb

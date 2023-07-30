@@ -6,6 +6,7 @@ root: Intro_NB.ipynb
 
 chapters:
 - file: ToC.ipynb
+
 - file: Introduction/intro.ipynb
 
 - file: initDesigns.ipynb

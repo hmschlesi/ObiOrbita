@@ -2,6 +2,8 @@
 
 **HIER COMES THE YOUTUBE VIDEO**
 
+
+the book that was made for this project can be found [here](https://hmschlesi.github.io/ObiOrbita)
 ## Team Members
 - Hans-Martin Schlesier
 - Kim-Sarah Nowak

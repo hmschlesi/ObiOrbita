@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Outlook &#8212; My sample book</title>
+    <title>Outlook &#8212; OpenSource Orbita</title>
   
   
   
@@ -160,8 +160,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="Introduction/about.html">about</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="OBI/OBI_intro.html">OBI Orbita Introduction</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="OBI/OBI_intro.html">OBI Orbita</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="OBI/OBI_manual.html">ObiOrbita Construction Manual</a></li>
+<li class="toctree-l2"><a class="reference internal" href="OBI/OBI_DAW.html">DAW Connection of the Orbita</a></li>
 <li class="toctree-l2"><a class="reference internal" href="OBI/OBI_extraMaterials.html">extra Materials for the OBI Orbita</a></li>
 </ul>
 </li>
@@ -220,7 +221,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+      <li><a href="https://github.com/hmschlesi/ObiOrbita" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -237,7 +238,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FOutlook.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/hmschlesi/ObiOrbita/issues/new?title=Issue%20on%20page%20%2FOutlook.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -336,7 +337,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -352,6 +355,27 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#licensing-terms">Licensing Terms</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#requirements-standard-compliance">Requirements / Standard Compliance</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#project-requirements">Project Requirements</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#functional-requirements">Functional Requirements</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#non-functional-requirements">Non-functional Requirements</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#standards-compliance">Standards Compliance</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#cern-open-hardware-license-ohl-version-2">CERN Open Hardware License (OHL) Version 2</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-source-hardware-association-oshwa-standards">Open Source Hardware Association (OSHWA) Standards</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -363,6 +387,64 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="outlook">
 <h1>Outlook<a class="headerlink" href="#outlook" title="Permalink to this heading">#</a></h1>
+<section id="licensing-terms">
+<h2>Licensing Terms<a class="headerlink" href="#licensing-terms" title="Permalink to this heading">#</a></h2>
+<p>This project, including all its design files, documentation, and software, is licensed under the <a class="reference external" href="https://ohwr.org/cern_ohl_w_v2.txt">CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W-2.0)</a>.</p>
+<p>As per the terms of this license, you may:</p>
+<ul class="simple">
+<li><p><strong>Redistribute and use</strong> the documentation, design files, and software with or without modifications.</p></li>
+<li><p><strong>Create derivative works</strong> for your use or to distribute, as long as you attribute the original work to us and license your derivative work under the same CERN OHL-W v2.0 license.</p></li>
+</ul>
+<p>This means that if you decide to distribute, sell, or produce hardware based on our designs, you should:</p>
+<ul class="simple">
+<li><p>Provide clear attribution to our original work.</p></li>
+<li><p>Include a copy of the CERN OHL-W v2.0 license with your work.</p></li>
+<li><p>Also, make your modifications or derivative work available under the same CERN OHL-W v2.0 license.</p></li>
+</ul>
+<p>For the full details of the license, please refer to the complete <a class="reference download internal" download="" href="_downloads/9879d6db96fd29134fc802214163b95a/LICENSE"><span class="xref download myst">CERN-OHL-W-2.0</span></a>. SPDX identifier for this license is <code class="docutils literal notranslate"><span class="pre">CERN-OHL-W-2.0</span></code>.</p>
+</section>
+<section id="requirements-standard-compliance">
+<h2>Requirements / Standard Compliance<a class="headerlink" href="#requirements-standard-compliance" title="Permalink to this heading">#</a></h2>
+<section id="project-requirements">
+<h3>Project Requirements<a class="headerlink" href="#project-requirements" title="Permalink to this heading">#</a></h3>
+<section id="functional-requirements">
+<h4>Functional Requirements<a class="headerlink" href="#functional-requirements" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p>The ObiOrbita system should be capable of producing and controlling music using the Orbita.</p></li>
+<li><p>The system should come with a comprehensive manual/documentation explaining how to assemble and operate it.</p></li>
+</ol>
+</section>
+<section id="non-functional-requirements">
+<h4>Non-functional Requirements<a class="headerlink" href="#non-functional-requirements" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p>The system should be robust and durable enough for normal usage.</p></li>
+<li><p>The system should have a cost-efficient design using off-the-shelf components.</p></li>
+<li><p>The system should be designed with an open-source approach, allowing for modifications and improvements.</p></li>
+</ol>
+</section>
+</section>
+<section id="standards-compliance">
+<h3>Standards Compliance<a class="headerlink" href="#standards-compliance" title="Permalink to this heading">#</a></h3>
+<section id="cern-open-hardware-license-ohl-version-2">
+<h4>CERN Open Hardware License (OHL) Version 2<a class="headerlink" href="#cern-open-hardware-license-ohl-version-2" title="Permalink to this heading">#</a></h4>
+<p>Our project complies with the CERN OHL v2 by:</p>
+<ul class="simple">
+<li><p>Making all design files and documentation available to the public under the terms of this license.</p></li>
+<li><p>Allowing and encouraging modification and redistribution of the design files.</p></li>
+<li><p>Providing a clear attribution to the original project and authors, as required by the license.</p></li>
+</ul>
+</section>
+<section id="open-source-hardware-association-oshwa-standards">
+<h4>Open Source Hardware Association (OSHWA) Standards<a class="headerlink" href="#open-source-hardware-association-oshwa-standards" title="Permalink to this heading">#</a></h4>
+<p>Our project aligns with the Open Source Hardware (OSHW) definition, as stipulated by the Open Source Hardware Association. The OSHW’s definition can be found at their official website <a class="reference external" href="http://www.oshwa.org/definition/">here</a>.</p>
+<p>Our compliance with the OSHWA standards includes:</p>
+<ul class="simple">
+<li><p>Providing documentation including design files, and enough additional data to allow the device to be manufactured.</p></li>
+<li><p>Allowing modification and distribution of these design files in a way that allows others to easily obtain them.</p></li>
+</ul>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -415,6 +497,33 @@ document.write(`
             
             
               
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#licensing-terms">Licensing Terms</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#requirements-standard-compliance">Requirements / Standard Compliance</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#project-requirements">Project Requirements</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#functional-requirements">Functional Requirements</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#non-functional-requirements">Non-functional Requirements</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#standards-compliance">Standards Compliance</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#cern-open-hardware-license-ohl-version-2">CERN Open Hardware License (OHL) Version 2</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-source-hardware-association-oshwa-standards">Open Source Hardware Association (OSHWA) Standards</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
             
           </div>
           <footer class="bd-footer-content">
@@ -424,7 +533,7 @@ document.write(`
   <div class="footer-item">
     
 <p class="component-author">
-By The Jupyter Book Community
+By Playtronica&OSHS
 </p>
 
   </div>

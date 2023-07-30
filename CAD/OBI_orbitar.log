@@ -1,0 +1,34 @@
+Solid Edge Translation To obj
+Date: Sonntag,Juli 30,2023 01:45
+Output File: C:\Users\hansi\Documents\GitHub\ObiOrbita\CAD\OBI_orbitar.obj
+Author: Unknown
+Organization: Unknown
+Source System: SOLID EDGE
+
+Hardware:
+Processor: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+Operating System: Windows 10 Professional
+Installed Memory: 31.94 GB
+
+Software Information:
+Parasolid Version: 34.0.153
+PSBodyshop Version: 34.0.110
+OBJ Adapter Version: 9.0.94
+Solid Edge Version: 222.00.00.132 x64
+
+OBJ Export Options:
+Export Construction Solids:Off
+Export Displayed Parts:Off
+Export Construction Sheets:Off
+Enable Logging:On
+Export Textures:Off
+Export Flatten Assembly:On
+Export Construction Solids and Sheets if design bodies not present:Off
+Export Units:Millimeters
+Export Tolerance Value:1.250000
+Export Tolerance Type:Custom
+Export Surface Plane Angle Value:0.523599
+
+Translation progress:
+Translation process completed
+Time required to translate:00 : 00 : 01

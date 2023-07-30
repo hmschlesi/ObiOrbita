@@ -1,0 +1,32 @@
+OBJ translation to Solid Edge
+Date: Sonntag,Juli 30,2023 01:46
+Source File:C:\Users\hansi\Documents\GitHub\ObiOrbita\CAD\Exports\OBI_orbitar.obj
+Author: Unknown
+Organization: Unknown
+Source System: DEX
+
+Hardware:
+Processor: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+Operating System: Windows 10 Professional
+Installed Memory: 31.94 GB
+
+Software Information:
+Parasolid Version: 34.0.153
+PSBodyshop Version: 34.0.110
+OBJ Adapter Version: 9.0.94
+Solid Edge Version: 222.00.00.132 x64
+
+OBJ Import options 
+Split Groups:Off
+Heal Mesh Faults:Off
+Make Base Feature:On
+Enable Logging:On
+
+Translation progress:
+Error!Could not find material library obi_orbitar.mtl
+Error!Could not find material "OBI_orbitarMaterial0" But saw 2 references.
+Error!Could not find material "OBI_orbitarMaterial1" But saw 3 references.
+Error!Could not find material "OBI_orbitarMaterial2" But saw 1 references.
+Error!Could not find material "OBI_orbitarMaterial3" But saw 1 references.
+Translation process completed
+Total time required to translate and post process:00 : 00 : 00

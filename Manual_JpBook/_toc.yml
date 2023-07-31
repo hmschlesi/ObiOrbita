@@ -9,9 +9,9 @@ chapters:
 
 - file: Introduction/intro.ipynb
 
-- file: initDesigns.ipynb
-
 - file: proposedSolution.ipynb
+
+- file: initDesigns.ipynb
 
 - file: OBI/OBI_projResults.ipynb
   sections:
@@ -23,6 +23,6 @@ chapters:
   
 - file: disseminationActivities.ipynb
 
-- file: Economic_Social_Environmental_Outcomes.ipynb
+- file: conclusion.ipynb
 
 - file: Outlook.ipynb

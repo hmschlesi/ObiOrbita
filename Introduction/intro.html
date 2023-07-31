@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Intro OpenSource Hardware &#8212; OpenSource Orbita</title>
+    <title>Introduction &#8212; OpenSource Orbita</title>
   
   
   
@@ -64,8 +64,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'Introduction/intro';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="about" href="about.html" />
-    <link rel="prev" title="OpenSourceHardware Playtronica" href="../Intro_NB.html" />
+    <link rel="next" title="Proposed Solution" href="../proposedSolution.html" />
+    <link rel="prev" title="Open Source Hardware Seminar (OSHS) 2023, TU Berlin" href="../Intro_NB.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -152,22 +152,25 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../Intro_NB.html">
-                    OpenSourceHardware Playtronica
+                    Open Source Hardware Seminar (OSHS) 2023, TU Berlin
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Intro OpenSource Hardware</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="about.html">about</a></li>
-</ul>
-</li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../OBI/OBI_intro.html">OBI Orbita</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../OBI/OBI_manual.html">ObiOrbita Construction Manual</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proposedSolution.html">Proposed Solution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../initDesigns.html">Initial Design Approaches</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../OBI/OBI_projResults.html">Project Results: Obi Orbita</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../OBI/OBI_manual.html">OBI Orbita Construction Manual</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../OBI/OBI_DAW.html">DAW Connection of the Orbita</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../OBI/OBI_extraMaterials.html">extra Materials for the OBI Orbita</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../OBI/OBI_extraMaterials.html">Extra materials for the OBI Orbita</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../OBI/OBI_video.html">OBI Orbita Video Tutorial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../OBI/OBI_licensing.html">Licensing</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../Outlook.html">Outlook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../disseminationActivities.html">Dissemination Activities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conclusion.html">Conclusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Outlook.html">Discussion and Outlook</a></li>
 </ul>
 
     </div>
@@ -351,7 +354,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Intro OpenSource Hardware</h1>
+    <h1>Introduction</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -361,7 +364,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mainboard-adnd-sensors">Mainboard adnd Sensors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#product-the-orbita">Product: The Orbita</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#practice-partner-playtronica">Practice Partner: Playtronica</a></li>
 </ul>
             </nav>
         </div>
@@ -373,16 +377,23 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="intro-opensource-hardware">
-<h1>Intro OpenSource Hardware<a class="headerlink" href="#intro-opensource-hardware" title="Permalink to this heading">#</a></h1>
-<p>This is a manual to help you build your own version of the OBIOrbita</p>
-<section id="mainboard-adnd-sensors">
-<h2>Mainboard adnd Sensors<a class="headerlink" href="#mainboard-adnd-sensors" title="Permalink to this heading">#</a></h2>
-<p>you can get the electronic parts from here
-<a class="reference external" href="https://shop.playtronica.com/">https://shop.playtronica.com/</a>)</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h1>
+<p>This technical report you will find our work on the project of the open source implementation of the <em>Orbita</em> by <strong>Playtronica</strong>. It deals with the challenges that were faced by the music-oriented company Playtronica in making their innovative MIDI sequencer available to a broader audience. The <em>Orbita</em> offers a new and exciting way of making music, but its high cost limits its accessibility. On top of that, with the <em>Orbita</em> being a niche product, most people tend not to be willing to spend high amounts of money if they have never used any comparable device before. Moreover, the device’s potential for educational purposes remains largely unused due to usability issues for newcomers. Despite its playful and intuitive nature, so far it finds only very limited use in schools or with children, primarily due to its complexity for those unfamiliar with MIDI sequencers.</p>
+<p>To address these challenges, our student group from the Open Source Hardware Seminar cooperated with Playtronica in a project of converting the Orbita into Open Source Hardware. This report highlights the strategies employed to achieve this transformation, emphasizing the goal of making this type of music-making more accessible for more people, including educational settings.</p>
+<p>In the following chapters, this report is about our proposed solution approach for the challenges. The elaborated design ideas are presented and the appropriate one for the project scope is selected. Afterwards, the main part presents the results from the project. The results include the first prototype we built with associated documentation, manuals and a tutorial video. The video demonstration is beneficial for a visualization and better understanding of the final product. In addition, a GitHub repository was set up for the entire project, where more information and the license can be found. Afterwards planned dissemination activities and the expected outcome of this project will be discussed on different levels. Finally, an outlook is given and limitations of the project are listed.</p>
+<section id="product-the-orbita">
+<h2>Product: The Orbita<a class="headerlink" href="#product-the-orbita" title="Permalink to this heading">#</a></h2>
+<p><img alt="OBI_Orbita" src="../_images/Orbita_Original.jpeg" /></p>
+<p>Source: <a class="reference external" href="https://cdm.link/2021/08/playtronicas-orbita-explores-sequences-on-physical-kinetic-turntable-launching-soon/">Image of Orbita (Retrieved: 30.07.2023)</a></p>
+<p>The Orbita is a circular MIDI sequencer that can turn color and movement into rythms. The basis is a turning table, which is driven by a motor at which different speeds can be set. The turning table is equipped with metal rings of various sizes, to which magnets can be attached at any point. Sensors according to the number of metal rings are mounted on the underside of a bridge that extends over the turning table. These sensors read the different colors of the magnets and create a sequence that is transmitted to a computer. Depending on the color of the magnet and the ring on which it is attached, different tones, instruments or melodies can be assigned. This setting can be realized with the help of suitable programs on the computer. Thus, it is a playful way to develop creative sounds.</p>
 </section>
-<div class="toctree-wrapper compound">
-</div>
+<section id="practice-partner-playtronica">
+<h2>Practice Partner: Playtronica<a class="headerlink" href="#practice-partner-playtronica" title="Permalink to this heading">#</a></h2>
+<p>This semesters project for the Open Source Hardware Seminar (OSHS) was initiated by the company <em>Playtronica</em> as our practice partner. With the pending launch of the MIDI sequencer <em>Orbita</em>, they were looking for a solution to make the instrument accessible to a broader crowd by implementing it as Open Source Hardware.</p>
+<p>Playtronica operates as a multifaceted entity, including both a startup and a vibrant community. In the company work creative artists and skilled engineers from diverse backgrounds. Their endeavors range from crafting innovative music devices to orchestrating captivating interactive events and installations. Currently, Playtronica has successfully established offices in both Berlin and Paris, furthering their mission to innovate, entertain, and foster creativity within a global community of like-minded people.</p>
+<p>Playtronica was founded in 2013, marked by their initiation of music workshops for children and captivating performances at various music and science festivals. A significant milestone for the company came in 2016 with the launch of the Playtron device - a revolutionary creation that allows individuals to play music on any object capable of conducting electricity as on a piano keyboard. In 2018, they further expanded their product line with the introduction of the TouchMe device, which allows people to produce music using their own skin as an instrument.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -422,15 +433,15 @@ document.write(`
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">OpenSourceHardware Playtronica</p>
+        <p class="prev-next-title">Open Source Hardware Seminar (OSHS) 2023, TU Berlin</p>
       </div>
     </a>
     <a class="right-next"
-       href="about.html"
+       href="../proposedSolution.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">about</p>
+        <p class="prev-next-title">Proposed Solution</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -452,7 +463,8 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mainboard-adnd-sensors">Mainboard adnd Sensors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#product-the-orbita">Product: The Orbita</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#practice-partner-playtronica">Practice Partner: Playtronica</a></li>
 </ul>
   </nav></div>
 

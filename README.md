@@ -1,6 +1,6 @@
 # Open Source Hardware Implementation for Playtronica Orbita
 
-**HIER COMES THE YOUTUBE VIDEO**
+[![Watch the YouTube Video](https://img.youtube.com/vi/cCoySjhtgoQ/0.jpg)](https://youtu.be/cCoySjhtgoQ)
 
 
 the book that was made for this project can be found [here](https://hmschlesi.github.io/ObiOrbita)
